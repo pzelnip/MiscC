@@ -77,6 +77,10 @@ int main (void)
 	/* assign value to array name -- ILLEGAL! (ie - compile time error) */
 	//x = "hello";
 
+	/* nor can you assign an array to a pointer: */
+	//char * foo = x;
+
+
 	/* an array name is essentially a "constant pointer", or a pointer which can only
 	point to one location in memory and that can never point to a different location in 
 	memory.  The above line essentially tries to make that "constant pointer" point to

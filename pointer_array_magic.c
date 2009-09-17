@@ -11,5 +11,9 @@ int main (void)
 
 	printf ("%c   %c\n", c,d);
 
+	/* can be a useful trick too: */
+	int month = 3;
+	printf ("The first letter of the %d month is %c\n", month, month["JFMAMJJASOND"]);
+
 	return 0;
 }
